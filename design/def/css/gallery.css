@@ -1,0 +1,109 @@
+/* galery */
+.services{
+    text-align: center;
+    margin-bottom: 60px; 
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    text-decoration: none;
+}
+
+.galery{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.galery_item{
+    width: 100%;
+    height:200px;  
+    margin-bottom: 20px;
+}
+
+.bus_1{
+    /* background-image: url(../images/gallery/rent.png); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bus_2{
+    /* background-image: url(../images/gallery/group.png); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bus_3{
+    /* background-image: url(../images/gallery/transfer.png); */
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bus_4{
+    /* background-image: url(../images/gallery/national_tourism.png); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bus_5{
+    /* background-image: url(../images/gallery/internation_tourism.png); */
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bus_6{
+    /* background-image: url(../images/gallery/business_trip.png); */
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.bus_7{
+    /* background-image: url(../images/gallery/sport_event.png); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layer_galery{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    opacity: 0.7;
+    top: 0;
+}
+
+.layer_galery:hover{
+    opacity: 0.1;
+    -webkit-transition: 400ms 50ms;
+    transition: 400ms 50ms;
+    z-index: 2;
+}
+
+.text_galery{
+    display:flex;
+}
+
+.text_galery > p {
+    width: 100%;
+    position: absolute;
+    color: white;
+    z-index: 1;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 100px;
+    font-size: 18px;
+}

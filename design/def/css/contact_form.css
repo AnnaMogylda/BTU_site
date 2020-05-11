@@ -1,0 +1,109 @@
+/* form */
+
+.wrapper_form{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.contact_form  {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-top: 60px;
+    width: 70%;
+}
+.inner_form{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    border: 2px dashed #fff952;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 40px;
+    -moz-box-sizing: border-box;
+}
+
+.contactForm_header{
+    padding-top: 25px;
+    width: 300px;
+    font-weight: 700;
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+.contactForm_line{
+    display: flex;
+}
+
+.contactForm_line_element {
+    margin-bottom: 10px;
+    width: 217px;
+}
+
+.contactForm_line_element input{
+    width: 194.5px;
+    border: 1px solid rgb(175, 175, 175);
+    padding: 10px;
+    border-radius: 20px;
+    outline:none;
+}
+
+.phone{
+    display: flex;
+    width: 217px;
+}
+
+.phone span{
+    border-left: 1px solid rgb(175, 175, 175);
+    border-top: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    width:30px;
+}
+
+.phone input{
+    border: 1px solid rgb(175, 175, 175);
+    padding: 10px;
+    border-radius: 0 20px 20px 0;
+    width: 144px;
+}
+
+.btn_order{
+    margin-top: -20px;
+    
+}
+
+.btn_cost{
+    border: 1px solid #fff952;
+    background-color: #fff952;
+    border-radius: 20px;
+    padding: 10px 5px;
+    width: 212px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.7px;
+}
+
+.formSuccssess{
+    /* display: none; */
+    font-size: 24px;
+    text-align: center;
+    margin-top: 100px;
+}   

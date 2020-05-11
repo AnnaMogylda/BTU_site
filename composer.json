@@ -1,0 +1,13 @@
+{
+    "type": "project",
+    "require": {
+        "ext-SimpleXML": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-mbstring": "*",
+        "gregwar/image": "2.*",
+        "smarty/smarty": "3.1.18",
+        "mobiledetect/mobiledetectlib": "^2.8",
+        "phpmailer/phpmailer": "~6.0"
+    }
+}

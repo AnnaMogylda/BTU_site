@@ -1,0 +1,51 @@
+/*footer*/
+
+.contactUs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    margin-bottom: 50px;
+}
+
+.contactUs div{
+    padding-top: 30px;
+}
+
+.contactUs div p{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.contactUs div p:last-of-type{
+    font-weight: 700;
+}
+
+.contactUs div p:last-of-type a{
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.btn_contactUs{
+    border: 1px solid #fff952;
+    background-color: #fff952;
+    border-radius: 20px;
+    padding: 10px 5px;
+    width: 212px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    height: 30px;
+}
+
+.btn_contactUs span{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    color:#000;  
+}

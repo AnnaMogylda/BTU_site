@@ -1,0 +1,201 @@
+
+html, body, header{
+    margin: 0;
+    padding: 0;
+}
+
+h1{ 
+    color: #000;
+    display: block;
+    margin: auto;
+    top: -300px;
+    top: -60%;
+    position: relative;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 36px;
+}
+
+h1, h2, h3,h4{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.7px;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.sub_headers{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.sub_headers h2{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.yellow_underline{
+    width: 50px;
+    height: 5px;
+    background-color: #fff952;
+}
+
+/* main */
+
+main{
+    margin-top: 80px;
+    background-color:#fff; 
+}
+
+ /* benefits */
+
+.benefits{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.benefit_item{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+}
+
+.benefit_item:nth-of-type(2){
+    margin-bottom: 20px;
+}
+
+.benefit_item img{
+    margin:  auto 0 ;
+}
+
+.benefit_item p{
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+}
+
+.benefits_icons{
+    width: 100px;
+    height: 100px;
+}
+
+/* benefit_list */
+.benefits_list {
+    display: block;
+}
+
+.benefits_list_items{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+
+.benefits_list_header{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 60px;
+}
+
+.benefits_list_item{
+    display: flex;
+    width: 95%;
+    padding-right: 10px;
+}
+
+.benefits_list_item img{
+    width: 60px;
+    height: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right:10px;
+    margin-left:20px;
+}
+
+.benefits_list_item img:nth-of-type(){
+    margin-left:10px;
+}
+
+.benefits_list_item div h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+/* truck_fleet */
+
+.truck_fleet{
+    width: 100%;
+    display: block;
+}
+
+.truck_fleet article .trucks_outer_wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.truck_fleet_items, .tariff_items{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #eaeaea;
+    padding-top: 50px;
+}
+
+.truck_fleet_item, .tariff_item{
+    width: 250px;
+    background: #fff;
+    -webkit-box-shadow: 1px 1px 16px 0px rgba(0,0,0,0.08);
+    -moz-box-shadow: 1px 1px 16px 0px rgba(0,0,0,0.08);
+    box-shadow: 1px 1px 16px 0px rgba(0,0,0,0.08);
+    border-radius: 0 0 5px 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    min-height: 160px;
+    margin-bottom: 45px;
+    padding: 25px 10px 10px 30px;
+}
+
+.truck_fleet_item p:first-of-type{
+    padding-bottom: 10px;
+} 
+
+.truck_fleet_item p:last-of-type {
+    line-height: 1.6;
+    padding-top: 10px;
+    padding-right: 10px;
+} 
+
+/* tariffs */
+
+.tariffs{
+    width: 100%;
+    display: block;
+}
+
+.tariff_item_list {
+    padding: 0;
+}
+
+.tariff_item_list li{
+    padding-bottom: 10px;
+    line-height: 1.6;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+

@@ -1,0 +1,9 @@
+User-agent: *
+Allow: *.js
+Allow: *.css
+Disallow: /*?
+Disallow: /404
+Disallow: /captcha/
+Disallow: /resize/
+Disallow: /*?utm
+Disallow: /*&utm

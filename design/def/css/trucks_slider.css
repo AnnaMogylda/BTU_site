@@ -1,0 +1,125 @@
+.trucks_slider {
+    position: relative;
+    overflow: hidden;
+  }
+
+.trucks_slider_wrapper {
+    display: flex;
+    transition: transform 0.6s ease;
+}
+
+.trucks_slider_item {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.trucks_slides{
+    padding: 0;
+    margin: 0;
+    width:100%;
+    height: 480px;
+}
+
+.trucks_slides_text{
+    background-color: #fff;
+    height: 57px;
+    width: 95%;
+    position: relative;
+    top: 88%;
+    opacity: 50%;
+    padding-left: 5%;
+    padding-top: 1px;
+}
+
+.trucks_slides_text p{
+    font-size: 20px; 
+}
+
+.trucks_Mercedes1{
+    background: url("../images/truck_fleet/Mercedes_1.jpeg") no-repeat left center / cover;
+}
+
+.trucks_Mercedes2{
+    background: url("../images/truck_fleet/Mercedes_2.jpeg") no-repeat center center / cover;
+}
+
+.trucks_Mercedes3{
+    background: url("../images/truck_fleet/Mercedes_3.jpeg") no-repeat center bottom / cover;
+}
+
+.trucks_Ford1{
+    background: url("../images/truck_fleet/Ford_1.jpeg") no-repeat center center / cover;
+}
+
+.trucks_Ford2{
+    background: url("../images/truck_fleet/Ford_2.jpeg") no-repeat left center / cover;
+}
+
+.trucks_Ford3{
+    background: url("../images/truck_fleet/Ford_3.jpeg") no-repeat center top / cover;
+}
+
+.trucks_Temsa1{
+    background: url("../images/truck_fleet/Temsa_1.jpeg") no-repeat center center / cover;
+}
+
+.trucks_Temsa2{
+    background: url("../images/truck_fleet/Temsa_2.jpeg") no-repeat left center / cover;
+}
+
+.trucks_Temsa3{
+    background: url("../images/truck_fleet/Temsa_3.jpeg") no-repeat center center / cover;
+}
+
+
+.trucks_slider_control {
+    position: absolute;
+    top: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    height: 50px;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, .5);
+}
+
+.trucks_slider_control_show {
+    display: flex;
+}
+
+.trucks_slider_control:hover,
+.trucks_slider_control:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9;
+}
+
+.trucks_slider_control_left {
+    left: 0;
+}
+
+.trucks_slider_control_right {
+    right: 0;
+}
+
+.trucks_slider_control::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.trucks_slider_control_left::before {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.trucks_slider_control_right::before {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
